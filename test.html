@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/styles.css">
+	<title>致你</title>
+	<script></script>
+</head>
+3
+
+<body>
+	<div id="modal" class="overlay" onclick="start()">
+		<p>点击打开</p>
+	</div>
+	<div>
+		<audio id="audio" src="./assets/audio/background.mp3" loop controls></audio>
+		<img id="music" class="music" src="./assets/images/music.png" alt="" title="音乐" onclick="changeMusic()">
+	</div>
+		<div id="box">
+			<div onclick="display_bigImg(this)"></div>
+			<div onclick="display_bigImg(this)"></div>
+			<div onclick="display_bigImg(this)"></div>
+			<div onclick="display_bigImg(this)"></div>
+			<div onclick="display_bigImg(this)"></div>
+			<div onclick="display_bigImg(this)"></div>
+			<div onclick="display_bigImg(this)"></div>
+			<div onclick="display_bigImg(this)"></div>
+			<div onclick="display_bigImg(this)"></div>
+			<div onclick="display_bigImg(this)"></div>
+			<p></p>
+		</div>
+	<div id="light" class="big_img" onclick="display_smallImg()"></div>
+	<canvas id="stars"></canvas>
+	<script src="./js/main.js"></script>
+	<script src="./js/stars.js"></script>
+</body>
+
+</html>
